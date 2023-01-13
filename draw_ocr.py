@@ -1,5 +1,5 @@
 ﻿import sys
-import pandas as pd
+import json
 import jmespath
 from ocr import ocr
 from draw import draw_image
@@ -19,53 +19,39 @@ def get_vertices(annotations, interes_words):
         else:
             frases.append(split_frase)
     
-    for idx in range(len(annotations)):        
-        w = {}
-        w["word"] = annotations[idx]["description"]
+    for word in single_words:
+        coincidencias = get_matches(data=annotations, word=word)
+        words = words + coincidencias
+        for word in words:
+            count[word["word"]] = count[word["word"]] + 1
+            print(word)
+    
+    for frase in frases:
         
-        # Indentificar palabras
-        if w["word"] in single_words:
-            count[w["word"]] = count[w["word"]] + 1
-            v =  annotations[idx]["boundingPoly"]["vertices"][0]
-            v1 = (v["x"], v["y"])
-            v =  annotations[idx]["boundingPoly"]["vertices"][2]
-            v2 = (v["x"], v["y"])
-            
-            w["vertices"] = [v1,v2]
-            print(w)
-            words.append(w)
+        coincidencias = get_matches(data=annotations, word=frase[0])
+        if coincidencias == [] : continue
         
-        # Identificar frases
-        for frase in frases:
-            
-            # Si la palabra actual no corresponde con a primera letra de la frase, nos saltamos este ciclo
-            if w["word"] != frase[0]: continue
-            
+        for coincidence in coincidencias: 
+            idx = annotations.index(coincidence)
             # Creamos la frase de la misma longitud y preguntamos si es la misma de la origin
-            frase_encontrada = [annotations[idx+idx_plus]["description"] for idx_plus in range(0, len(frase))]
+            frase_encontrada = [annotations[idx+idx_plus]["word"] for idx_plus in range(len(frase))]
             if frase != frase_encontrada: continue
             
             # Proceso básico de recuperación de indices 
             i = idx
             f = idx + len(frase) - 1
             count[' '.join(frase)] = count[' '.join(frase)] + 1
-            v =  annotations[i]["boundingPoly"]["vertices"][0]
-            v1 = [v["x"], v["y"]]
-            v =  annotations[f]["boundingPoly"]["vertices"][2]
-            v2 = [v["x"], v["y"]]
-            
+            v1 =  annotations[i]["vert"][0]
+            v2 =  annotations[f]["vert"][1]
+
+            w = {}
             w["word"] = ' '.join(frase)
-            w["vertices"] = [v1,v2]
+            w["vert"] = [v1,v2]
             print(w)
             words.append(w)  
             
     print(count)
- 
-
-    df = pd.DataFrame(words)
-    df.to_csv(path.replace(".jpg", ".csv"), index=False, header=False)
-
-    return [w["vertices"] for w in words]
+    return words
 
 def normalize(s):
     replacements = (
@@ -85,6 +71,16 @@ def normalize(s):
         s = s.replace(a, b).replace(a.upper(), b.upper())
     return s
 
+def get_matches(data, word):
+    expression = f"[?word == '{word}']"
+    return jmespath.search(expression, data)
+
+def save_json(my_dict, file_name):
+    json_string = json.dumps(my_dict)
+    json_file = open(file_name, "w")
+    json_file.write(json_string)
+    json_file.close()
+
 if __name__ == "__main__":
     sys.stdin.reconfigure(encoding='utf-8')
     sys.stdout.reconfigure(encoding='utf-8')
@@ -94,6 +90,7 @@ if __name__ == "__main__":
     path = 'resources/CFE.jpg'
 
     annotations = ocr(path)
+    save_json(my_dict=annotations, file_name=path.replace(".jpg","_general.json"))
     
     # caratura
     interes_words = [#"ANUAL", "Ordinaria", "CAT", "PAGAR", "PLAZO", "limite","corte", "Tipo", 
@@ -115,6 +112,11 @@ if __name__ == "__main__":
     modelo_words = ["01 NOV 2022"]
 
     interes = get_vertices(annotations, interes_words)
-    modelo = get_vertices(annotations, modelo_words)
+    save_json(my_dict=interes, file_name=path.replace(".jpg","_interes.json"))
+    interes =  [w["vert"] for w in interes]
     
-    draw_image(path=path, modelo=[], interes=interes)
+    modelo = get_vertices(annotations, modelo_words)
+    save_json(my_dict=modelo, file_name=path.replace(".jpg","_modelo.json"))
+    modelo =  [w["vert"] for w in modelo]
+    
+    draw_image(path=path, modelo=modelo, interes=interes)
