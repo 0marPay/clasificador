@@ -1,0 +1,50 @@
+[
+    {
+        "word" : "Vigencia",
+        "vert" : [[490, 186], [522, 193]]
+    },
+    {
+        "word" : "Sexo",
+        "vert" : [[266, 218], [290, 226]]
+    },
+    {
+        "word" : "Datos Generales",
+        "vert" : [[16, 149], [115, 160]]
+    },
+    {
+        "word" : "Nombre del Asegurado",
+        "vert" : [[20, 190], [106, 198]]
+    },
+    {
+        "word" : "Fecha Nacimiento",
+        "vert" : [[372, 189], [440, 195]]
+    },
+    {
+        "word" : "Actividad / Ocupación",
+        "vert" : [[21, 219], [98, 228]]
+    },
+    {
+        "word" : "Fecha Ingreso",
+        "vert" : [[372, 217], [426, 224]]
+    },
+    {
+        "word" : "Suma Asegurada",
+        "vert" : [[21, 266], [105, 277]]
+    },
+    {
+        "word" : "Invalidez Total Temporal ***",
+        "vert" : [[22, 334], [126, 342]]
+    },
+    {
+        "word" : "Lugar y Fecha de Emisión",
+        "vert" : [[33, 630], [131, 641]]
+    },
+    {
+        "word" : "Certificado",
+        "vert" : [[427, 81], [492, 92]]
+    },
+    {
+        "word" : "Póliza",
+        "vert" : [[321, 82], [358, 92]]
+    }
+]

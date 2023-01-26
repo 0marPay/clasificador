@@ -1,0 +1,38 @@
+[
+    {
+        "word" : "PLAZO DEL CRÉDITO",
+        "vert" : [[35, 144], [128, 155]]
+    },
+    {
+        "word" : "Costo Anual Total",
+        "vert" : [[82, 87], [156, 98]]
+    },
+    {
+        "word" : "Fecha limite de pago",
+        "vert" : [[243, 145], [328, 155]]
+    },
+    {
+        "word" : "Fecha de corte",
+        "vert" : [[243, 160], [304, 169]]
+    },
+    {
+        "word" : "TASA DE INTERÉS ANUAL FIJA",
+        "vert" : [[192, 86], [334, 96]]
+    },
+    {
+        "word" : "Tipo de Crédito",
+        "vert" : [[38, 75], [103, 87]]
+    },
+    {
+        "word" : "MONTO DEL CRÉDITO",
+        "vert" : [[361, 83], [455, 95]]
+    },
+    {
+        "word" : "MONTO TOTAL A PAGAR",
+        "vert" : [[487, 81], [594, 90]]
+    },
+    {
+        "word" : "Nombre comercial del Producto",
+        "vert" : [[38, 64], [167, 73]]
+    }
+]

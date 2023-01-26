@@ -1,0 +1,62 @@
+[
+    {
+        "word" : "Sucursal",
+        "vert" : [[91, 147], [127, 156]]
+    },
+    {
+        "word" : "Contrato",
+        "vert" : [[203, 149], [242, 157]]
+    },
+    {
+        "word" : "Frecuencia",
+        "vert" : [[93, 182], [140, 192]]
+    },
+    {
+        "word" : "Plazo",
+        "vert" : [[153, 183], [177, 193]]
+    },
+    {
+        "word" : "CAT",
+        "vert" : [[295, 186], [315, 194]]
+    },
+    {
+        "word" : "Seguros",
+        "vert" : [[330, 223], [364, 233]]
+    },
+    {
+        "word" : "Nombre del Cliente",
+        "vert" : [[306, 149], [389, 158]]
+    },
+    {
+        "word" : "Fecha de Apertura",
+        "vert" : [[458, 148], [538, 159]]
+    },
+    {
+        "word" : "Tasa Anual",
+        "vert" : [[195, 183], [244, 192]]
+    },
+    {
+        "word" : "Saldo Inicial",
+        "vert" : [[360, 184], [414, 193]]
+    },
+    {
+        "word" : "Fecha Elaboración",
+        "vert" : [[457, 182], [537, 194]]
+    },
+    {
+        "word" : "Monto del Crédito",
+        "vert" : [[50, 217], [127, 227]]
+    },
+    {
+        "word" : "Comisiones e / IVA",
+        "vert" : [[168, 219], [243, 227]]
+    },
+    {
+        "word" : "Total :",
+        "vert" : [[486, 221], [515, 230]]
+    },
+    {
+        "word" : "Producto",
+        "vert" : [[45, 182], [84, 192]]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "word" : "Nombre",
+        "vert" : [[184, 168], [223, 178]]
+    },
+    {
+        "word" : "Folio",
+        "vert" : [[294, 235], [321, 245]]
+    },
+    {
+        "word" : "Clave :",
+        "vert" : [[185, 125], [217, 135]]
+    },
+    {
+        "word" : "Fecha de inscripción",
+        "vert" : [[168, 234], [267, 246]]
+    },
+    {
+        "word" : "Entidad de registro",
+        "vert" : [[380, 235], [465, 250]]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "word" : "Como Federal Electricidad",
+        "vert" : [[38, 38], [129, 51]]
+    },
+    {
+        "word" : "TOTAL A PAGAR :",
+        "vert" : [[207, 59], [263, 71]]
+    },
+    {
+        "word" : "CORTE A PARTIR",
+        "vert" : [[41, 168], [96, 181]]
+    },
+    {
+        "word" : "LIMITE DE PAGO",
+        "vert" : [[41, 193], [94, 206]]
+    },
+    {
+        "word" : "RMU :",
+        "vert" : [[40, 145], [62, 160]]
+    },
+    {
+        "word" : "NO . DE SERVICIO :",
+        "vert" : [[40, 132], [130, 148]]
+    },
+    {
+        "word" : "PERIODO FACTURADO",
+        "vert" : [[42, 239], [114, 255]]
+    }
+]

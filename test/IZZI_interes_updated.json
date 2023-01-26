@@ -1,0 +1,34 @@
+[
+    {
+        "word" : "izzı",
+        "vert" : [[161, 30], [364, 115]]
+    },
+    {
+        "word" : "Teléfono",
+        "vert" : [[195, 698], [287, 726]]
+    },
+    {
+        "word" : "Referencia",
+        "vert" : [[353, 765], [469, 791]]
+    },
+    {
+        "word" : "Realiza tu pago escaneando este código :",
+        "vert" : [[543, 172], [1002, 195]]
+    },
+    {
+        "word" : "Total a pagar",
+        "vert" : [[1232, 388], [1358, 408]]
+    },
+    {
+        "word" : "Fecha Límite de pago",
+        "vert" : [[894, 554], [1110, 580]]
+    },
+    {
+        "word" : "Realiza tu pago escaneando este código :",
+        "vert" : [[543, 172], [1002, 195]]
+    },
+    {
+        "word" : "Período facturación",
+        "vert" : [[353, 698], [565, 725]]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "word" : "Género",
+        "vert" : [[493, 114], [528, 123]]
+    },
+    {
+        "word" : "Porcentaje",
+        "vert" : [[512, 332], [563, 343]]
+    },
+    {
+        "word" : "Parentesco",
+        "vert" : [[390, 334], [444, 342]]
+    },
+    {
+        "word" : "Contratante :",
+        "vert" : [[30, 72], [87, 83]]
+    },
+    {
+        "word" : "Nombre Completo del asegurado :",
+        "vert" : [[32, 110], [191, 124]]
+    },
+    {
+        "word" : "Fecha de nacimiento :",
+        "vert" : [[66, 153], [167, 163]]
+    },
+    {
+        "word" : "Muerte Accidental",
+        "vert" : [[31, 218], [98, 224]]
+    },
+    {
+        "word" : "Diagnóstico de Enfermedades Graves",
+        "vert" : [[31, 227], [174, 235]]
+    },
+    {
+        "word" : "Renta diaria por Hospitalización",
+        "vert" : [[31, 266], [149, 274]]
+    },
+    {
+        "word" : "Lugar y Fecha",
+        "vert" : [[126, 695], [194, 705]]
+    },
+    {
+        "word" : "Fecha de Aplicación :",
+        "vert" : [[427, 779], [525, 789]]
+    },
+    {
+        "word" : "Póliza :",
+        "vert" : [[358, 75], [388, 83]]
+    },
+    {
+        "word" : "Certificado :",
+        "vert" : [[484, 76], [539, 86]]
+    },
+    {
+        "word" : "Inicio de Vigencia",
+        "vert" : [[246, 155], [327, 165]]
+    },
+    {
+        "word" : "Fin de Vigencia",
+        "vert" : [[442, 155], [514, 167]]
+    },
+    {
+        "word" : "Nombre Completo",
+        "vert" : [[30, 331], [115, 342]]
+    }
+]

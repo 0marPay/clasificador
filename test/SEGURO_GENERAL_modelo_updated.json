@@ -1,0 +1,106 @@
+[
+    {
+        "word" : "XM",
+        "vert" : [[55, 230], [85, 210]]
+    },
+    {
+        "word" : "XF",
+        "vert" : [[104, 230], [127, 210]]
+    },
+    {
+        "word" : "12-19368",
+        "vert" : [[33, 105], [120, 124]]
+    },
+    {
+        "word" : "NZ1169630",
+        "vert" : [[135, 105], [210, 124]]
+    },
+    {
+        "word" : "25",
+        "vert" : [[380, 199], [430, 208]]
+    },
+    {
+        "word" : "16/11/2022",
+        "vert" : [[165, 221], [315, 233]]
+    },
+    {
+        "word" : "16/11/2023",
+        "vert" : [[440, 200], [560, 210]]
+    },
+    {
+        "word" : "16/02/1997",
+        "vert" : [[275, 196], [370, 208]]
+    },
+    {
+        "word" : "AYUDANTE",
+        "vert" : [[324, 223], [563, 235]]
+    },
+    {
+        "word" : "APOYO ECONÓMICO FAMILIAR SA DE CV SOFOM ENR",
+        "vert" : [[11, 164], [450, 180]]
+    },
+    {
+        "word" : "PEREZ CASTRO ARMANDO GILBERTO",
+        "vert" : [[18, 193], [263, 205]]
+    },
+    {
+        "word" : "$ 50,000.00 Pesos MN",
+        "vert" : [[330, 322], [493, 333]]
+    },
+    {
+        "word" : "$ 50,000.00 Pesos MN",
+        "vert" : [[330, 336], [493, 347]]
+    },
+    {
+        "word" : "CALLE MARIO No Ext 40 No. Int SN Col. PAVON SECCION SILVIA Estado MEXICO Pais MEXICO , CP . 57610",
+        "vert" : [[17, 248], [560, 264]]
+    },
+    {
+        "word" : "*Nombre 1",
+        "vert" : [[23, 404], [400, 417]]
+    },
+    {
+        "word" : "*Parentesco 1",
+        "vert" : [[410, 409], [485, 422]]
+    },
+    {
+        "word" : "Porcentaje 1",
+        "vert" : [[492, 409], [560, 422]]
+    },
+    {
+        "word" : "*Nombre 2",
+        "vert" : [[23, 437], [400, 421]]
+    },
+    {
+        "word" : "*Parentesco 2",
+        "vert" : [[410, 440], [485, 426]]
+    },
+    {
+        "word" : "Porcentaje 2",
+        "vert" : [[492, 440], [560, 425]]
+    },
+    {
+        "word" : "*Nombre 3",
+        "vert" : [[23, 456], [400, 437]]
+    },
+    {
+        "word" : "*Parentesco 3",
+        "vert" : [[410, 456], [485, 443]]
+    },
+    {
+        "word" : "Porcentaje 3",
+        "vert" : [[492, 458], [560, 442]]
+    },
+    {
+        "word" : "*Nombre 4",
+        "vert" : [[23, 476], [400, 456]]
+    },
+    {
+        "word" : "*Parentesco 4",
+        "vert" : [[410, 475], [485, 460]]
+    },
+    {
+        "word" : "Porcentaje 4",
+        "vert" : [[492, 478], [560, 460]]
+    }
+]

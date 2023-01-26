@@ -1,0 +1,30 @@
+[
+    {
+        "word" : "TITULAR :",
+        "vert" : [[33, 372], [85, 384]]
+    },
+    {
+        "word" : "BANCO :",
+        "vert" : [[33, 391], [77, 402]]
+    },
+    {
+        "word" : "CLABE :",
+        "vert" : [[33, 411], [74, 422]]
+    },
+    {
+        "word" : "CUENTA :",
+        "vert" : [[33, 431], [81, 441]]
+    },
+    {
+        "word" : "NUMERO DE TARJETA DE DÉBITO :",
+        "vert" : [[32, 446], [215, 460]]
+    },
+    {
+        "word" : "por la cantidad de",
+        "vert" : [[146, 320], [234, 333]]
+    },
+    {
+        "word" : "número de contrato",
+        "vert" : [[33, 332], [128, 344]]
+    }
+]

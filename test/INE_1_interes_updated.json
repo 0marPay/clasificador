@@ -1,0 +1,54 @@
+[
+    {
+        "word" : "NOMBRE",
+        "vert" : [[254, 117], [292, 129]]
+    },
+    {
+        "word" : "DOMICILIO",
+        "vert" : [[253, 166], [297, 179]]
+    },
+    {
+        "word" : "CURP",
+        "vert" : [[252, 233], [276, 248]]
+    },
+    {
+        "word" : "ESTADO",
+        "vert" : [[251, 251], [281, 263]]
+    },
+    {
+        "word" : "LOCALIDAD",
+        "vert" : [[252, 266], [293, 280]]
+    },
+    {
+        "word" : "SEXO",
+        "vert" : [[470, 145], [491, 158]]
+    },
+    {
+        "word" : "MUNICIPIO",
+        "vert" : [[333, 251], [372, 266]]
+    },
+    {
+        "word" : "SECCION",
+        "vert" : [[402, 251], [435, 266]]
+    },
+    {
+        "word" : "EMISION",
+        "vert" : [[333, 267], [364, 281]]
+    },
+    {
+        "word" : "VIGENCIA",
+        "vert" : [[401, 267], [436, 281]]
+    },
+    {
+        "word" : "CLAVE DE ELECTOR",
+        "vert" : [[253, 218], [323, 233]]
+    },
+    {
+        "word" : "FECHA DE NACIMENTO",
+        "vert" : [[436, 121], [513, 132]]
+    },
+    {
+        "word" : "ANO DE REGISTRO",
+        "vert" : [[402, 236], [465, 250]]
+    }
+]

@@ -1,0 +1,314 @@
+[
+    {
+        "word" : "Género",
+        "vert" : [[285, 175], [305, 185]]
+    },
+    {
+        "word" : "Nacionalidad",
+        "vert" : [[25, 227], [62, 236]]
+    },
+    {
+        "word" : "Primaria",
+        "vert" : [[203, 284], [225, 293]]
+    },
+    {
+        "word" : "Preparatoria",
+        "vert" : [[192, 304], [226, 313]]
+    },
+    {
+        "word" : "Posgrado",
+        "vert" : [[263, 303], [289, 314]]
+    },
+    {
+        "word" : "Técnico",
+        "vert" : [[269, 283], [291, 294]]
+    },
+    {
+        "word" : "Licenciatura",
+        "vert" : [[256, 294], [289, 303]]
+    },
+    {
+        "word" : "Colonia",
+        "vert" : [[25, 373], [47, 381]]
+    },
+    {
+        "word" : "Colonia",
+        "vert" : [[319, 227], [341, 231]]
+    },
+    {
+        "word" : "CURP",
+        "vert" : [[109, 251], [126, 260]]
+    },
+    {
+        "word" : "Estado",
+        "vert" : [[24, 276], [43, 285]]
+    },
+    {
+        "word" : "Estado",
+        "vert" : [[106, 397], [126, 406]]
+    },
+    {
+        "word" : "Estado",
+        "vert" : [[403, 250], [423, 259]]
+    },
+    {
+        "word" : "Pais",
+        "vert" : [[93, 227], [105, 236]]
+    },
+    {
+        "word" : "Pais",
+        "vert" : [[192, 397], [205, 405]]
+    },
+    {
+        "word" : "Pais",
+        "vert" : [[484, 250], [497, 259]]
+    },
+    {
+        "word" : "Parentesco",
+        "vert" : [[291, 547], [324, 556]]
+    },
+    {
+        "word" : "Mensualidad",
+        "vert" : [[526, 570], [562, 581]]
+    },
+    {
+        "word" : "AF01 - S",
+        "vert" : [[24, 47], [65, 62]]
+    },
+    {
+        "word" : "SOLICITUD DE CREDITO",
+        "vert" : [[216, 8], [364, 22]]
+    },
+    {
+        "word" : "Monto del prestamo solicitado",
+        "vert" : [[26, 91], [112, 101]]
+    },
+    {
+        "word" : "Plazo a que se requiere el Préstamo",
+        "vert" : [[223, 90], [325, 100]]
+    },
+    {
+        "word" : "Para que tene pensado utilizar e Préstamo",
+        "vert" : [[409, 87], [533, 98]]
+    },
+    {
+        "word" : "Nombres ) sin abreviaturas",
+        "vert" : [[24, 127], [101, 137]]
+    },
+    {
+        "word" : "Apelido Palermo",
+        "vert" : [[24, 152], [70, 161]]
+    },
+    {
+        "word" : "Apelido Matamo",
+        "vert" : [[176, 151], [224, 160]]
+    },
+    {
+        "word" : "Correo electrónico ( si cuenta con el )",
+        "vert" : [[25, 177], [133, 186]]
+    },
+    {
+        "word" : "RFC con Homoclave",
+        "vert" : [[25, 253], [82, 263]]
+    },
+    {
+        "word" : "Casado ( a )",
+        "vert" : [[44, 286], [74, 295]]
+    },
+    {
+        "word" : "Solter )",
+        "vert" : [[46, 295], [75, 305]]
+    },
+    {
+        "word" : "Divorciado ( a )",
+        "vert" : [[36, 304], [75, 315]]
+    },
+    {
+        "word" : "Union LibreO",
+        "vert" : [[105, 283], [149, 296]]
+    },
+    {
+        "word" : "Separado ( a )",
+        "vert" : [[103, 294], [138, 305]]
+    },
+    {
+        "word" : "Viudoja )",
+        "vert" : [[114, 304], [138, 315]]
+    },
+    {
+        "word" : "Secundana i",
+        "vert" : [[195, 294], [230, 303]]
+    },
+    {
+        "word" : "Fecha de Nacimiento ( DMA )",
+        "vert" : [[23, 203], [108, 213]]
+    },
+    {
+        "word" : "Entidad federativa de nacimiento",
+        "vert" : [[112, 203], [205, 213]]
+    },
+    {
+        "word" : "Dependientes Económicos",
+        "vert" : [[218, 201], [293, 211]]
+    },
+    {
+        "word" : "Pais de nacimiento",
+        "vert" : [[93, 227], [147, 236]]
+    },
+    {
+        "word" : "Entre que calles se encuentr",
+        "vert" : [[25, 351], [110, 361]]
+    },
+    {
+        "word" : "Dirección actual ( calle y número ) exterior e interior",
+        "vert" : [[25, 329], [170, 339]]
+    },
+    {
+        "word" : "Municipio / Delegación",
+        "vert" : [[24, 396], [85, 403]]
+    },
+    {
+        "word" : "Código Postal",
+        "vert" : [[273, 372], [313, 383]]
+    },
+    {
+        "word" : "Tiempo en este domicilio",
+        "vert" : [[235, 394], [305, 405]]
+    },
+    {
+        "word" : "Telefono ( s )",
+        "vert" : [[26, 420], [57, 431]]
+    },
+    {
+        "word" : "Telefono ( s )",
+        "vert" : [[463, 546], [496, 555]]
+    },
+    {
+        "word" : "Tel Celular",
+        "vert" : [[164, 420], [197, 430]]
+    },
+    {
+        "word" : "Empleado ( asalanado )",
+        "vert" : [[322, 132], [385, 143]]
+    },
+    {
+        "word" : "Nombre de la Empresa , Negocio o Patrón",
+        "vert" : [[319, 148], [436, 159]]
+    },
+    {
+        "word" : "Dirección Actual ( calle y numero",
+        "vert" : [[319, 175], [412, 184]]
+    },
+    {
+        "word" : "Entre que calles se encuentr",
+        "vert" : [[25, 351], [107, 361]]
+    },
+    {
+        "word" : "Municipio / Delegación",
+        "vert" : [[24, 396], [85, 407]]
+    },
+    {
+        "word" : "Codigo Postal",
+        "vert" : [[575, 224], [613, 234]]
+    },
+    {
+        "word" : "Tiempo en este Empleo",
+        "vert" : [[544, 249], [611, 257]]
+    },
+    {
+        "word" : "Municipio Delegación",
+        "vert" : [[318, 252], [383, 261]]
+    },
+    {
+        "word" : "Micronegocio ( independente )",
+        "vert" : [[489, 130], [574, 143]]
+    },
+    {
+        "word" : "Actividad / Giro de la Empresa",
+        "vert" : [[516, 148], [603, 158]]
+    },
+    {
+        "word" : "Entre que calles se encuentra",
+        "vert" : [[320, 202], [404, 212]]
+    },
+    {
+        "word" : "Teléfono ( s )",
+        "vert" : [[320, 275], [352, 284]]
+    },
+    {
+        "word" : "Sueldo Mensual Fo",
+        "vert" : [[320, 299], [378, 308]]
+    },
+    {
+        "word" : "Oros ingresos Variables",
+        "vert" : [[320, 323], [390, 334]]
+    },
+    {
+        "word" : "Fuente de estos ingresos",
+        "vert" : [[446, 322], [518, 332]]
+    },
+    {
+        "word" : "Ares / Departamento / Sección donde labora",
+        "vert" : [[321, 358], [449, 369]]
+    },
+    {
+        "word" : "Puesto / Posición en el empleo",
+        "vert" : [[467, 358], [555, 368]]
+    },
+    {
+        "word" : "Pago Casa",
+        "vert" : [[236, 496], [266, 506]]
+    },
+    {
+        "word" : "Pago Servicios",
+        "vert" : [[318, 496], [360, 506]]
+    },
+    {
+        "word" : "Pago Otros",
+        "vert" : [[408, 494], [440, 504]]
+    },
+    {
+        "word" : "Gasto mensual da predial , agua , otros",
+        "vert" : [[491, 495], [600, 504]]
+    },
+    {
+        "word" : "Valor de la casa",
+        "vert" : [[138, 522], [183, 530]]
+    },
+    {
+        "word" : "Si está hipotecada saldo de la hipoteca",
+        "vert" : [[220, 521], [332, 531]]
+    },
+    {
+        "word" : "Empresa que financia la hipoteca",
+        "vert" : [[400, 521], [495, 531]]
+    },
+    {
+        "word" : "Nombre del Propietario",
+        "vert" : [[138, 547], [205, 556]]
+    },
+    {
+        "word" : "Posen Automov ?",
+        "vert" : [[27, 573], [78, 582]]
+    },
+    {
+        "word" : "Marca Modelo y Año",
+        "vert" : [[86, 573], [147, 582]]
+    },
+    {
+        "word" : "Valor factura",
+        "vert" : [[252, 573], [289, 581]]
+    },
+    {
+        "word" : "En caso de estar papándolo , empresa que financial crédito",
+        "vert" : [[325, 571], [498, 583]]
+    },
+    {
+        "word" : "LUGAR Y FECHA : en que firma la autorización de consulta",
+        "vert" : [[32, 788], [163, 806]]
+    },
+    {
+        "word" : "Folio de consulta",
+        "vert" : [[125, 662], [173, 672]]
+    }
+]

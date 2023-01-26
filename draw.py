@@ -12,7 +12,7 @@ def draw_ocr_results(image, rect, color=(0, 255, 0)):
 	# return the output image
 	return image
 
-def draw_image(path, modelo, interes):
+def draw_image(path, modelo, interes, show=True, save=False):
 
 	# The name of the image file to annotate
 	file_name = os.path.abspath(path)
@@ -29,8 +29,14 @@ def draw_image(path, modelo, interes):
 		final = draw_ocr_results(final, rect, (0, 0, 255))
 
 	# show the final output image
-	cv2.imshow("CROWD IA2", final)
-	cv2.waitKey(0)
+	if show:
+		# final = cv2.resize(final, (1000, 1400))
+		cv2.imshow("CROWD IA2", final)
+		cv2.waitKey(0)
+	
+	if save:
+		path = save if type(save) == str else path.replace(".jpg","_labeled.jpg")
+		cv2.imwrite(path, final)
 
 
 if __name__ == "__main__":
@@ -46,4 +52,4 @@ if __name__ == "__main__":
   
   modelo =[]
   
-  draw_image(path="resources/caratula.jpg", modelo=modelo, interes=interes)
+  draw_image(path="resources/caratula/caratula.jpg", modelo=modelo, interes=interes)

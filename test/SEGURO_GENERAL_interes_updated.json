@@ -1,0 +1,62 @@
+[
+    {
+        "word" : "Póliza",
+        "vert" : [[38, 87], [71, 99]]
+    },
+    {
+        "word" : "Sexo",
+        "vert" : [[20, 207], [37, 215]]
+    },
+    {
+        "word" : "Edad",
+        "vert" : [[380, 189], [397, 196]]
+    },
+    {
+        "word" : "Ocupación",
+        "vert" : [[416, 214], [452, 222]]
+    },
+    {
+        "word" : "Domicilio",
+        "vert" : [[19, 235], [51, 242]]
+    },
+    {
+        "word" : "Beneficiarios",
+        "vert" : [[25, 351], [80, 359]]
+    },
+    {
+        "word" : "Parentesco",
+        "vert" : [[429, 392], [470, 399]]
+    },
+    {
+        "word" : "Porcentaje",
+        "vert" : [[516, 392], [554, 403]]
+    },
+    {
+        "word" : "Datos Generales",
+        "vert" : [[14, 143], [109, 157]]
+    },
+    {
+        "word" : "Nombre del Asegurado",
+        "vert" : [[18, 182], [99, 194]]
+    },
+    {
+        "word" : "Fecha de Nacimiento",
+        "vert" : [[274, 187], [349, 195]]
+    },
+    {
+        "word" : "Vigencia certificado",
+        "vert" : [[443, 190], [512, 199]]
+    },
+    {
+        "word" : "Fecha de Ingreso",
+        "vert" : [[201, 209], [264, 222]]
+    },
+    {
+        "word" : "Suma Asegurada",
+        "vert" : [[363, 305], [436, 317]]
+    },
+    {
+        "word" : "Fallecimiento Invalidez total y permanente",
+        "vert" : [[21, 315], [159, 343]]
+    }
+]
